@@ -1,0 +1,4 @@
+﻿  Win32Project2.cpp
+E:\Projects\Win32Project2\Win32Project2\Win32Project2.cpp(140,14): warning C4101: ps: неиспользованная локальная переменная
+  LINK : не найден или не выполнена сборка E:\Projects\Win32Project2\Debug\Win32Project2.exe при последней инкрементной компоновке; выполняется полная компоновка
+  Win32Project2.vcxproj -> E:\Projects\Win32Project2\Debug\Win32Project2.exe
