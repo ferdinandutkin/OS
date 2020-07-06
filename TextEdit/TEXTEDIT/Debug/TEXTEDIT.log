@@ -1,0 +1,6 @@
+﻿E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (TEXTEDIT.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  file_io.h
+  TEXTEDIT.cpp
+C:\Users\ferdinand\Desktop\OS\TEXTEDIT\TEXTEDIT.cpp(233,97): warning C4302: reinterpret_cast: усечение из "HBRUSH" к "bool"
+  Создание кода...
+  TEXTEDIT.vcxproj -> C:\Users\ferdinand\Desktop\OS\Debug\TRES.exe
