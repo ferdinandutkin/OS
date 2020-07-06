@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\ferdinand\source\repos\Stackbasedmagic\Stackbasedmagic\Source.cpp(52): warning C4715: Stack<bool,128>::pop: значение возвращается не при всех путях выполнения
+C:\Users\ferdinand\source\repos\Stackbasedmagic\Stackbasedmagic\Source.cpp(52): warning C4715: Stack<enum state,1>::pop: значение возвращается не при всех путях выполнения
+C:\Users\ferdinand\source\repos\Stackbasedmagic\Stackbasedmagic\Source.cpp(46): warning C4715: Stack<enum state,1>::peek: значение возвращается не при всех путях выполнения
+  Stackbasedmagic.vcxproj -> C:\Users\ferdinand\source\repos\Stackbasedmagic\Debug\Stackbasedmagic.exe
