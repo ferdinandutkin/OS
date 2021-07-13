@@ -1,0 +1,32 @@
+Error while processing C:\Users\ferdinand\source\repos\TEXTEDIT\TEXTEDIT\file_io.h.
+Error while processing C:\Users\ferdinand\source\repos\TEXTEDIT\TEXTEDIT\TEXTEDIT.cpp.
+C:\Users\ferdinand\source\repos\TEXTEDIT\TEXTEDIT/file_io.h:13:34: error: illegal character encoding in string literal [clang-diagnostic-error]
+            file.lpstrFilter = L"<D2><E5><EA><F1><F2><EE><E2><FB><E5> <F4><E0><E9><EB><FB>(*.txt)\0*.txt\0<C2><F1><E5> <F4><E0><E9><EB><FB>(*.*)\0*.*\0";
+                                 ^
+Suppressed 4 warnings (4 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+Found compiler error(s).
+C:\Users\ferdinand\source\repos\TEXTEDIT\TEXTEDIT/file_io.h:13:65: error: illegal character encoding in string literal [clang-diagnostic-error]
+            file.lpstrFilter = L"<D2><E5><EA><F1><F2><EE><E2><FB><E5> <F4><E0><E9><EB><FB>(*.txt)\0*.txt\0<C2><F1><E5> <F4><E0><E9><EB><FB>(*.*)\0*.*\0";
+                                                                                                          ^
+C:\Users\ferdinand\source\repos\TEXTEDIT\TEXTEDIT\TEXTEDIT.cpp:225:20: error: cast from pointer to smaller type 'bool' loses information [clang-diagnostic-error]
+            return reinterpret_cast<bool>((reinterpret_cast<HBRUSH>(GetStockObject(NULL_BRUSH))));
+                   ^
+C:\Users\ferdinand\source\repos\TEXTEDIT\TEXTEDIT\file_io.h:13:34: error: illegal character encoding in string literal [clang-diagnostic-error]
+            file.lpstrFilter = L"<D2><E5><EA><F1><F2><EE><E2><FB><E5> <F4><E0><E9><EB><FB>(*.txt)\0*.txt\0<C2><F1><E5> <F4><E0><E9><EB><FB>(*.*)\0*.*\0";
+                                 ^
+C:\Users\ferdinand\source\repos\TEXTEDIT\TEXTEDIT\file_io.h:13:65: error: illegal character encoding in string literal [clang-diagnostic-error]
+            file.lpstrFilter = L"<D2><E5><EA><F1><F2><EE><E2><FB><E5> <F4><E0><E9><EB><FB>(*.txt)\0*.txt\0<C2><F1><E5> <F4><E0><E9><EB><FB>(*.*)\0*.*\0";
+                                                                                                          ^
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xtr1common:23:26: error: constexpr variable 'value' must be initialized by a constant expression [clang-diagnostic-error]
+    static constexpr _Ty value = _Val;
+                         ^
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\xtr1common:29:16: note: in instantiation of static data member 'std::integral_constant<int (*)(void *) __attribute__((stdcall)), &CloseHandle>::value' requested here
+        return value;
+               ^
+E:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\memory:1873:13: note: in instantiation of member function 'std::integral_constant<int (*)(void *) __attribute__((stdcall)), &CloseHandle>::operator int (*)(void *) __attribute__((stdcall))' requested here
+            _Mypair._Get_first()(_Mypair._Myval2);
+            ^
+C:\Users\ferdinand\source\repos\TEXTEDIT\TEXTEDIT\file_io.h:41:27: note: in instantiation of member function 'std::unique_ptr<void, std::integral_constant<int (*)(void *) __attribute__((stdcall)), &CloseHandle> >::~unique_ptr' requested here
+            unique_handle hFile(CreateFileW(init_file.data(), GENERIC_READ, FILE_SHARE_READ, NULL, OPEN_EXISTING, 0, nullptr));
+                          ^
